@@ -1,9 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-resume',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './resume.component.html',
   styleUrl: './resume.component.css'
 })
