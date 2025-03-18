@@ -8,9 +8,9 @@ import { Project } from '../_models/Project';
 export class ProjectsService {
 
   projects: Project[] = [
-      {id: 0, name: "Sample Python Project", pictures: [], projectLink: "//www.github.com", summary: "Python project that analyzes stock market data.",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        tags: [Tag.PYTHON]},
+      {id: 0, name: "Simple Chat Room", pictures: [], projectLink: "https://github.com/tomaspsotkka/ChatSystem", summary: "Java chat room with connetion based on sockets.",
+        description: "In this project I have implemented some basic knowledge about sockets. The connection is based on sockets.",
+        tags: [Tag.JAVA]},
   
       {id: 1, name: "Sample Angular App", pictures: [], projectLink: "//www.github.com", summary: "Fullstack web app developed using Angular and Node.JS",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
